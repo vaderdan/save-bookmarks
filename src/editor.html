@@ -1,0 +1,29 @@
+﻿<html>
+  <head>    
+    <script src="../lib/ace-editor/ace.js"></script>
+    <script src="../lib/jquery.min.js"></script>
+     <script src="../lib/html_tabifier.js"></script>
+    <script src="editor.js"></script>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+    <style>
+	pre.editor-main{
+		position: absolute; 
+		margin: 0px; 
+		-webkit-box-sizing: border-box; 	
+		box-sizing: border-box;
+		top: 0px; 
+		bottom: 0px;
+		left: -19px; 
+		right: 0px;
+	}
+
+
+    </style>
+  </head>
+  <body style="overflow: hidden;">
+  	<div id="save_mask" style="display: none; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: #fff; z-index: 100; opacity: 0.1;"></div>
+	<div id="save_title" style="display: none;  position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: url('../img/save_mac.png') repeat center -250px; z-index: 101;">
+	</div>
+    <pre class="editor-main" id="editor"></pre>
+  </body>
+</html>

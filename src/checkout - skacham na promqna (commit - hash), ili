@@ -1,0 +1,46 @@
+checkout - skacham na promqna (commit - hash), ili branch
+git show master
+git log -4 (kolko da mi pokaje)
+git l -5 (barziat log)
+git add file - dobavqne na fail za da bade komitnat
+git status - promenit sprqmo poslednata versia 
+
+staging
+
+git gui
+
+
+git checkout testfile ?
+
+git rm --cached testfile
+
+git reset testfile
+git reset HEAD testfile
+
+
+git add -A (vsicki promedi da badat slojeni + iztritite failove)
+
+
+
+git help add (iskarva palnata dokumentacia na komandata)
+
+git diff (promenite vav fail)
+
+git dfw (pokazva samo dobavenoto)
+
+git diff -cached ??
+
+git revert id na komit (zamestvam komit sas segashen kommit)
+
+gkt commit -ammend (popravq komanda)
+
+git df (promqnata koqto git znae)
+
+git ra (darvovidna struktura)
+
+
+
+
+
+
+
